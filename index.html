@@ -11,29 +11,29 @@
   var rand_nb =Math.floor(Math.random() * 2) + 1 
     // First we must provide a streaming source to the player - in this case an HLS feed
     var src = {
-      hls: &#39;https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8&#39;
+      hls:'https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8'
       // You may provide different source types - the player will automatically pick the best option
-      // dash: &#39;https://your-dash-url.mpd&#39;
-      // mp4: &#39;https://your-mp4-url.mp4&#39;
+      // dash:'https://your-dash-url.mpd'
+      // mp4:'https://your-mp4-url.mp4'
     };
     // Then we set our player settings
     var settings = {
-      licenseKey: &#39;eWZmZ2d2Y3BrdEAxNTMwNjA2&#39;,
+      licenseKey:'eWZmZ2d2Y3BrdEAxNTMwNjA2',
       src: src,
       // The player will automatically resize itself based on context and those reference width/height values
       width: 2500,
       height: 1050,
       // Let us select a skin
-      skin: &#39;s3&#39;,
+      skin:'s3',
       // Let us add a poster frame to our player
       contentMetadata: {
         poster: [
-          &#39;https://yalla-shoot.goalarab.com/wp-content/uploads/sites/4/2020/12/Untitled-5-copy.png&#39;
+          'https://yalla-shoot.goalarab.com/wp-content/uploads/sites/4/2020/12/Untitled-5-copy.png';
         ]
       }
     };
     // Reference to our container div 
-    var elementID = &#39;rmpPlayer&#39;;
+    var elementID = 'rmpPlayer';
     // Create an object based on RadiantMP constructor
     var rmp = new RadiantMP(elementID);
     // Initialization ... and done!
@@ -44,9 +44,9 @@
 <script type='b0265b317c81c4f402204ebe-text/javascript'>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag(&#39;js&#39;, new Date());
+  gtag('js', new Date());
 
-  gtag(&#39;config&#39;, &#39;UA-177827164-1&#39;);
+  gtag('config';,'UA-177827164-1');
 </script>
 </body>
 </html>
